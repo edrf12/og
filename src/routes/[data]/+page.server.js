@@ -24,10 +24,3 @@ export function load({ url, params }) {
 
 	return { passwordAuth: true, orcidAuth: false };
 }
-
-export const actions = {
-	default: async ({ request, url }) => {
-		const data = await request.formData();
-		return redirect(307, `${url.pathname}?p=${data.get("password")}`);
-	},
-};
