@@ -1,3 +1,16 @@
 [build]
 command = "npm run build"
 publish = "build"
+
+[template.environment]
+SHORT_DOMAIN = 'Your short domain (Has priority over SHORT_DOMAIN_PUBLIC)'
+SHORT_PROVIDER = 'Your short provider (see README - Has priority over SHORT_PROVIDER_PUBLIC)'
+SHORT_API_KEY = 'Your shortener api key (Has priority over SHORT_API_KEY_PUBLIC)'
+SHORT_DOMAIN_PUBLIC = 'Your public short domain (Optional)'
+SHORT_PROVIDER_PUBLIC = 'Your public short provider (see README - Optional)'
+SHORT_API_KEY_PUBLIC = 'Your public shortener api key (Optional)'
+AUTH_ENABLED = 'Determines if auth is enabled (true/false)'
+AUTH_DISCORD_ID = 'The id of your discord app (see README)'
+AUTH_DISCORD_SECRET = 'The secret of your discord app (see README)'
+AUTH_SECRET = 'Your auth secret (npm exec auth secret or openssl rand -base64 33)'
+LOGIN_ALLOWED = 'The people allowed to login (see README)'
