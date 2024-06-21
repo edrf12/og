@@ -6,7 +6,7 @@ export function load({ url, params }) {
 	var password = url.searchParams.get("p");
 
 	if (data.exp !== false) {
-		var today = new Date().valueOf();
+		var today = new Date().getTime();
 
 		if (today - data.exp > 0) {
 			throw error(410, "The link you tried to access has expired");

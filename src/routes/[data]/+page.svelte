@@ -3,26 +3,17 @@
 
 	/** @type {import('./$types').PageData} */
 	export let data;
-
-	// var password = "";
-
-	// async function submit() {
-	// 	fetch("?", {
-	// 		method: "POST",
-	// 		body: JSON.stringify({ password: password, data: data.data }),
-	// 	});
-	// }
 </script>
 
 <section>
 	<h3>This URL is password protected</h3>
 	<p>Input the password given by the person who created the link to proceed</p>
 
-	<form method="POST" use:enhance>
+	<form method="" use:enhance>
 		<label>
 			<input
 				style={data.invalidPass ? "border-color:red" : ""}
-				name="password"
+				name="p"
 				type="password"
 				placeholder="Password"
 			/>

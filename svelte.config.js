@@ -1,4 +1,5 @@
 import adapter from "@sveltejs/adapter-netlify";
+import "dotenv/config";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
