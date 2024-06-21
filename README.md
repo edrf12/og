@@ -4,7 +4,8 @@ A simple way to add passwords to a url
 
 ## Video Demo
 
-<iframe src="https://www.youtube-nocookie.com/embed/SY1Ondlh5bA" width="560" height="315" title="og - CS50 Final Project" frameborder="0" allowfullscreen></iframe>
+[Youtube](https://youtu.be/SY1Ondlh5bA)
+[Fullscreen](https://www.youtube.com/embed/SY1Ondlh5bA?autoplay=0&enablejsapi=1&iv_load_policy=3&mute=0&origin=https%3A%2F%2Fvideo.cs50.io&playsinline=1&rel=0&modestbranding=0&start=0&widgetid=1)
 
 ## Description
 
