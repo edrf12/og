@@ -2,6 +2,9 @@
 
 A simple way to add passwords to a url
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/7e00b199-6a40-457d-a02d-8c5120a02377">
+
+
 ## Video Demo
 
 [Youtube](https://youtu.be/SY1Ondlh5bA)
